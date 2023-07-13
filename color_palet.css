@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.container{
+    position: relative;
+    background-color: rgb(255, 253, 250);
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+   
+}
+
+
+.input_color{
+    width: 430px;
+ display: flex;
+ justify-content: center;
+color: whitesmoke;
+font-size: 2rem;
+ background-color: rgba(0, 0, 0, 0.853);
+ border-radius: 10px;
+ padding: 22px;
+ padding: 20px 40px;
+ margin-bottom: 20px;
+
+
+}
+
+.input_color p{
+    margin-right: 10px ;
+}
+
+.input_color input{
+    color: rgb(203, 203, 203);
+    border:  0;
+    background-color: rgba(245, 245, 245, 0.023);
+    width: 6.3rem;
+    font-size: 30px;
+background-color: #74746f;
+}
+
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline;
+    background-color: rgb(240, 246, 251);
+   
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 1px 2px ;
+    
+    
+}
+
+.pressed{
+   /* transition-duration: 0.3s; */
+    box-shadow: none;
+}
